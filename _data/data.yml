@@ -1,0 +1,120 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output. 
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Kavinda Pitiduwa Gamage
+    tagline: Software Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: harindu95dilshan@gmail.com
+    phone: (587) 664 8512
+    website: blog.webjeda.com #do not add http://
+    linkedin: harindudilshan
+    github: harindu95
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+
+    # languages:
+    #   - idiom: English
+    #     level: Native
+
+    #   - idiom: French
+        # level: Professional
+
+      # - idiom: Spanish
+        # level: Professional
+        
+
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+      # Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      # penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      # Donec quam felis, ultricies nec, pellentesque eu.
+
+      # Second paragraph if required.
+
+education:
+    - degree: BSc in Software Engineering
+      university: University of Calgary
+      time: 2016 - Current
+      details: |
+        - Currently 3rd year student with a GPA of 3.84 
+        - Relevant courses : Algorithms and Data Structures, Software Design, Embedded Systems, Networking
+        - Studied about multi threading, GUI programming,  client - server architecture, MySql, Git and OOP in class
+        - Used C++/C and Java
+
+experiences:
+    - role: Intern, Google Summer of Code
+      time: Summer 2018
+      company: KDE
+      details: |
+          * Created unit tests for GnuPG transactions
+          * Resolved bugs related to user experience 
+          * Utilized C++, Qt, CMake
+
+projects:
+    title: Projects
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+
+    assignments:
+      - title: Launcher
+        link : "https://www.github.com/harindu95/launcher-qt"
+        tagline: Application launcher for linux similar to Alfred(Mac OS) written in C++/Qt
+
+      - title: Tetris game
+        link : "https://www.github.com/harindu95/TetrisGame"
+        tagline: "A clone of popular game Tetris written with Python and Pygam(SDL."
+
+      - title: Pomodoro Timer
+        link : "https://www.github.com/harindu95/PomdoroTimer"
+        tagline: "A Timer application designed for pomodoro technique written with Java/JavaFx"
+
+
+      - title: Email Client
+        link: "https://www.github.com/harindu95/email-client"
+        tagline: "A Email Client written using React for frontend."
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 90%
+
+      - name: Java
+        level: 90%
+
+      - name: C++ and Qt
+        level: 80%
+    
+      - name: Javascript 
+        level: 75%
+
+      - name: React
+        level: 50%
+
+      - name: Linux
+        level: 60%
+
+      - name: CMake
+        level: 30%
+
+      - name: Git
+        level: 50%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

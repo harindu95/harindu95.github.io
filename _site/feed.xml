@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>blogging about stuffs</description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 24 Nov 2018 09:42:31 -0700</pubDate>
+    <lastBuildDate>Sat, 24 Nov 2018 09:42:31 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>First time with Jekyll</title>
+        <description>&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;I decided to build a personal website with Jekyll.
+For those of you who doesn’t know, Jekyll is a static 
+website builder. You can write blog posts in Markdown and 
+don’t have to worry about databases and CMS.&lt;/p&gt;
+
+&lt;p&gt;This is my first time using it. It wasn’t hard to figure it and create this site. 
+You have to first install jekyll with bundler.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem install bundler jekyll
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then you can create a website with the following command&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;jekyll new web-site-name
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can view it locally with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are lots of free Jekyll themes on internet, inlucding the one I am using which is called ‘kasper’. There are paid themese too if you want them.&lt;/p&gt;
+
+&lt;p&gt;The one problem I had was meshing two themes together. I want to add a ‘resume’ to my website and decided to use a different theme catered for cv. But I couldn’t find how to use two themes at once.&lt;/p&gt;
+
+&lt;p&gt;So  I decided to mesh the online-cv theme into kasper. It wasn’t hard as it could have been but it wasn’t easy either.&lt;/p&gt;
+
+&lt;p&gt;Anyway now it’s working, so I hope I can keep blogging without losing interest.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 24 Nov 2018 09:19:52 -0700</pubDate>
+        <link>http://localhost:4000//jekyll/update/2018/11/24/website-with-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2018/11/24/website-with-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

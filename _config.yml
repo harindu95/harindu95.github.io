@@ -1,0 +1,19 @@
+name: ">_ Developer"
+description: blogging about stuffs
+meta_description: "Jekyll Site, Blogging about stuffs"
+
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://harindu95.github.io'
+# google_analytics: 'UA-XXXXXXXX-X'
+plugins: [jekyll-paginate]
+
+# Details for the RSS feed generator
+# url:            'blog url'
+author:         'Harindu Dilshan'
+
+
+# theme_skin: blue # blue turquoise green berry orange ceramic

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>My Resume</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A beautiful Jekyll theme for creating resume">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <!-- Theme CSS -->
+    <link id="theme-style2" rel="stylesheet" href="/assets/css/screen.css">
+    <link id="theme-style" rel="stylesheet" href="/assets/css/resume.css">
+    <link rel="stylesheet" href="/assets/plugins/font-awesome/css/all.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+     <script type="text/javascript" src="/assets/plugins/jquery-1.11.3.min.js"></script>
+    <script>
+     
+     jQuery(document).ready(function($) {
+
+         $('.level-bar-inner').css('width', '0');
+         
+         $(window).on('load', function() {
+
+             $('.level-bar-inner').each(function() {
+                 
+                 var itemWidth = $(this).data('level');
+                 
+                 $(this).animate({
+                     width: itemWidth
+                 }, 800);
+                 
+             });
+
+         });
+         
+         
+
+     });
+    </script>
+</head>
+
+<body>
+    <nav class="main-nav clearfix">
+        <a class="back-button icon-arrow-left" href="/">Home</a>
+    </nav>
+
+    <div class="wrapper">
+        
+<div class="sidebar-wrapper">
+
+  <div class="profile-container">
+
+    
+    <img class="avatar" src="/assets/images/profile.png" alt="profile picture" />
+    
+
+    
+    <h1 class="name">Kavinda Pitiduwa Gamage</h1>
+    
+
+    
+    <h3 class="tagline">Software Developer</h3>
+    
+
+  </div><!--//profile-container-->
+
+  <div class="contact-container container-block">
+  <ul class="list-unstyled contact-list">
+
+    
+    <li class="email"><i class="fas fa-envelope"></i>
+      <a href="mailto:harindu95dilshan@gmail.com">harindu95dilshan@gmail.com</a>
+    </li>
+    
+
+    
+    <li class="phone"><i class="fas fa-phone"></i>
+      <a href="tel:(587) 664 8512">(587) 664 8512</a>
+    </li>
+    
+
+    
+    <li class="website"><i class="fas fa-globe-americas"></i>
+      <a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a>
+    </li>
+    
+
+    
+    <li class="linkedin"><i class="fab fa-linkedin"></i>
+      <a href="https://linkedin.com/in/harindudilshan" target="_blank">harindudilshan</a>
+    </li>
+    
+
+    
+    <li class="github"><i class="fab fa-github"></i>
+      <a href="http://github.com/harindu95" target="_blank">harindu95</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div><!--//contact-container-->
+
+  
+
+  
+
+
+  
+
+
+
+  
+
+</div><!--//sidebar-wrapper-->
+
+
+        <div class="main-wrapper">
+            
+
+
+
+            
+            
+
+  
+  <section class="section educations-section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+      </span>
+      Education
+    </h2>
+
+    
+    <div class="item">
+
+      <div class="meta">
+
+        <div class="upper-row">
+          <h3 class="degree">BSc in Software Engineering</h3>
+          <div class="time">2016 - Current</div>
+        </div><!--//upper-row-->
+
+        <div class="university">University of Calgary</div>
+      </div><!--//meta-->
+
+      
+      <div class="details">
+        <ul>
+  <li>Currently 3rd year student with a GPA of 3.84</li>
+  <li>Relevant courses : Algorithms and Data Structures, Software Design, Embedded Systems, Networking</li>
+  <li>Studied about multi threading, GUI programming,  client - server architecture, MySql, Git and OOP in class</li>
+  <li>Used C++/C and Java</li>
+</ul>
+
+      </div><!--//details-->
+      
+
+    </div><!--//item-->
+    
+
+  </section><!--//section-->
+  
+
+
+            
+
+            
+
+<section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    Experiences
+  </h2>
+
+  
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title">Intern, Google Summer of Code</h3>
+        <div class="time">Summer 2018</div>
+      </div><!--//upper-row-->
+
+      <div class="company">KDE</div>
+
+    </div><!--//meta-->
+
+    
+    <div class="details">
+      <ul>
+  <li>Created unit tests for GnuPG transactions</li>
+  <li>Resolved bugs related to user experience</li>
+  <li>Utilized C++, Qt, CMake</li>
+</ul>
+
+    </div><!--//details-->
+    
+
+  </div><!--//item-->
+  
+
+</section><!--//section-->
+
+
+
+
+            
+
+<section class="section projects-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    Projects
+  </h2>
+
+  
+
+  
+    <div class="item">
+
+      <span class="project-title">
+        <a href="https://www.github.com/harindu95/launcher-qt">Launcher</a>
+      </span>
+
+      
+      - <span class="project-tagline">Application launcher for linux similar to Alfred(Mac OS) written in C++/Qt</span>
+      
+
+    </div><!--//item-->
+  
+    <div class="item">
+
+      <span class="project-title">
+        <a href="https://www.github.com/harindu95/TetrisGame">Tetris game</a>
+      </span>
+
+      
+      - <span class="project-tagline">A clone of popular game Tetris written with Python and Pygam(SDL.</span>
+      
+
+    </div><!--//item-->
+  
+    <div class="item">
+
+      <span class="project-title">
+        <a href="https://www.github.com/harindu95/PomdoroTimer">Pomodoro Timer</a>
+      </span>
+
+      
+      - <span class="project-tagline">A Timer application designed for pomodoro technique written with Java/JavaFx</span>
+      
+
+    </div><!--//item-->
+  
+    <div class="item">
+
+      <span class="project-title">
+        <a href="https://www.github.com/harindu95/email-client">Email Client</a>
+      </span>
+
+      
+      - <span class="project-tagline">A Email Client written using React for frontend.</span>
+      
+
+    </div><!--//item-->
+  
+
+</section><!--//section-->
+
+
+
+            
+
+
+
+            
+
+<section class="skills-section section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    Skills &amp; Proficiency
+  </h2>
+
+  <div class="skillset">
+
+    
+    <div class="item">
+
+      <h3 class="level-title">Python</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="90%">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    
+    <div class="item">
+
+      <h3 class="level-title">Java</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="90%">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    
+    <div class="item">
+
+      <h3 class="level-title">C++ and Qt</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="80%">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    
+    <div class="item">
+
+      <h3 class="level-title">Javascript</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="75%">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    
+    <div class="item">
+
+      <h3 class="level-title">React</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="50%">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    
+    <div class="item">
+
+      <h3 class="level-title">Linux</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="60%">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    
+    <div class="item">
+
+      <h3 class="level-title">CMake</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="30%">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    
+    <div class="item">
+
+      <h3 class="level-title">Git</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="50%">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    
+
+  </div>
+
+</section><!--//skills-section-->
+
+
+        </div>
+    </div>
+</body>
+
+</html>
