@@ -36,6 +36,10 @@
         jQuery(document).ready(function($) {
 
             $('.level-bar-inner').css('width', '0');
+            $('.level-bar-inner').each(function() {
+                var itemWidth = $(this).data('level');
+                $(this).css('width', itemWidth);
+            });
 
             $(window).scroll(function() {
                 var hT = $('.level-bar-inner').first().offset().top,
@@ -44,6 +48,7 @@
                     wS = $(this).scrollTop();
 
                 if (wS > (hT + hH - wH)) {
+                    $('.level-bar-inner').css('width', '0');
                     $('.level-bar-inner').each(function() {
 
                         var itemWidth = $(this).data('level');
