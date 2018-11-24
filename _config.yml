@@ -14,6 +14,6 @@ plugins: [jekyll-paginate]
 # Details for the RSS feed generator
 # url:            'blog url'
 author:         'Harindu Dilshan'
-
+disqus: true
 
 # theme_skin: blue # blue turquoise green berry orange ceramic

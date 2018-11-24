@@ -3,6 +3,7 @@
  layout: post
  date: Sat Nov 24 09:19:52 MST 2018
  categories: jekyll update
+ comments: true
 ---
 
 Hello everyone!
