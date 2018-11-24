@@ -3,7 +3,7 @@ description: blogging about stuffs
 meta_description: "Jekyll Site, Blogging about stuffs"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
