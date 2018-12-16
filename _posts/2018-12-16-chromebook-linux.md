@@ -11,6 +11,9 @@ Hello again,
 I have finished my final exams and I thought I would write about Gallium OS today.
 
 Gallium OS is a ubuntu distro optimized for Chromebook.
+
+![alt-text](https://galliumos.org/img/laptop-lg-2.1.png)
+
 I have a Acer R11 Chromebook which I used with Crostini apps.
 Crostini allows us to run a linux container inside Chrome OS. And we can also run Android apps on Chrome Os. I noticed a significant performance issues when using both of them at once. 
 
