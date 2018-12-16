@@ -17,7 +17,7 @@ Gallium OS is a ubuntu distro optimized for Chromebook.
 I have a Acer R11 Chromebook which I used with Crostini apps.
 Crostini allows us to run a linux container inside Chrome OS. And we can also run Android apps on Chrome Os. I noticed significant performance issues when using both of them at once. 
 
-I decided since I don't really use Android apps , to Gallium OS a go. First I had to update my firmware.
+I decided since I don't really use Android apps, to give Gallium OS a go. First I had to update my firmware.
 Which you can easily do with the script provided [here](https://mrchromebox.tech/)
 
 After that it was easy to install Gallium OS. But my keyboard was not responsive which I found out was a fault of Gallium 2.1. Therefore I had to install Gallium 3.0 alpha.
