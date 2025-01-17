@@ -6,8 +6,8 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-# baseurl: /
-domain_name: 'kgamage.com'
+baseurl: /
+# domain_name: 'kgamage.com'
 permalink: /:title
 # google_analytics: 'UA-XXXXXXXX-X'
 plugins: [jekyll-paginate]
